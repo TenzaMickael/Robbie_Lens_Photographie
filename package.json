@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "postcss": "^8.4.33",
+    "react": "^18.2.0",
+    "sass": "^1.70.0"
+  },
+  "name": "robbie_lens_photographie",
+  "description": "Base de code pour le cours HTML CSS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
