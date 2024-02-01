@@ -12,19 +12,19 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <a class="nav__link__icon link" href="index.html" class="lien-icone">
+        <nav>
+            <a class="nav__link__icon link link__ajust__margin" href="index.html" class="lien-icone">
                 <img class="nav__link__picture" src="/assets/images/logo.png" alt="Logo Robbie Lens" />
             </a>
             <div class="navbar">
-                <a class="navbar__link link" href="index.html">Accueil</a>
-                <a class="navbar__link link" href="a-propos.html">À propos</a>
-                <a class="navbar__link link" href="portfolio.html">Portfolio</a>
+                <a class="navbar__link link link__ajust__margin" href="index.html">Accueil</a>
+                <a class="navbar__link link link__ajust__margin" href="a-propos.html">À propos</a>
+                <a class="navbar__link link link__ajust__margin" href="portfolio.html">Portfolio</a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="section__intro">
+        <section class="section__intro section__ajust__padding">
             <div class="container__intro">
                 <h1 class="container__intro__title">Robbie Lens Photographie</h1>
                 <p class="container__intro__content">
@@ -34,11 +34,11 @@
                 </p>
                 <a class="section__container__intro__link link" href="#contact" >UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
-            <img class="section__intro__picture" src="/assets/images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" />
+            <img class="section__intro__picture section" src="/assets/images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" />
         </section>
 
-        <section class="section__project__pictures section">
-            <h2 class="section__project__subtitle section__h2">Mon dernier projet</h2>
+        <section class="section__project__pictures section__ajust__padding">
+            <h2 class="section__h2">Mon dernier projet</h2>
             <div class="container__project">
                 <img class="container__project__picture" src="/assets/images/accueil/element-1.png" alt="Twelve apostles - Australie" />
                 <img class="container__project__picture" src="/assets/images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande" />
@@ -50,27 +50,27 @@
                 <img class="container__project__picture" src="/assets/images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" />
             </div>
         </section>
-        <section id="contact" class="section__contact">
-            <h2 class="section__contact__subtitle section__h2">Parlons de votre projet</h2>
+        <section id="contact" class="section__contact section__ajust__padding">
+            <h2 class="section__h2 section__h2--white">Parlons de votre projet</h2>
             <form class="section__contact__form" method="get" action="">
                 <div class="container__form">
-                    <div class="container__form__name">
-                        <label class="form__name__label" for="nom">nom</label>
-                        <input class="form__name__input"type="text" name="nom" id="nom" />
+                    <div class="container__form__name_email">
+                        <label class="form__name__email__label" for="nom">Nom :</label>
+                        <input class="form__name__email__input"type="text" name="nom" id="nom" placeholder="Votre nom ou pseudo ici"/>
                     </div>
-                    <div class="container__form__email">
-                        <label class="form__email__label"for="email">email</label>
-                        <input class="form__email__input"type="e-mail" name="email" id="email" />
+                    <div class="container__form__name_email">
+                        <label class="form__name__email__label form__name__email__label"for="email">Email :</label>
+                        <input class="form__name__email__input"type="e-mail" name="email" id="email" placeholder="Votre mail ici : exemple@truc.com">
                     </div>
                 </div>
-                <label class="section__contact__form__label" for="message">message</label>
-                <textarea class="section__contact__form__textarea"  name="message" id="message" rows="10"></textarea>
-                <input class="section__contact__form__input section__container__intro__link" type="submit" value="ENVOYER" class="section__container__intro__link" />
+                <label class="form__name__email__label" for="message">Message :</label>
+                <textarea class="section__contact__form__textarea"  name="message" id="message" rows="10"  placeholder="Votre message ici"></textarea>
+                <input class="form__name__email__input section__contact__form__input section__container__intro__link" type="submit" value="ENVOYER" class="section__container__intro__link"/>
             </form>
         </section>
     </main>
-    <footer class="footer">
-        <a class="footer__link content__link__icon link nav__link__icon" href="index.html" class="lien-icone">
+    <footer>
+        <a class="footer__link content__link__icon link nav__link__icon link link__ajust__margin" href="index.html" class="lien-icone">
             <img class="footer__link__picture" src="/assets/images/logo.png" alt="Logo Robbie Lens" />
         </a>
         <div class="footer__container__Social">

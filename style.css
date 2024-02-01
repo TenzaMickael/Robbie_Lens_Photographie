@@ -1,12 +1,17 @@
-
 /* ----- GENERALITÉS ----- */
 
 * {
   margin: 0;
 }
 
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 1em;
   background-color: #1f2039;
 }
@@ -24,47 +29,46 @@ em {
 .container__intro__title {
   font-size: 3.5em;
   color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.section__project__subtitle,.section__contact__subtitle {
+.section__h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section__h2--white {
   color: #f9f8ff;
+  margin-bottom: 30px;
 }
 
-.container__intro__content,
-li {
+.container__intro__content {
   font-size: 1.1em;
   color: #f9f8ff;
-}
-
-header,
-footer {
-  background-color: white;
-  padding: 20px 50px;
 }
 
 .link:hover {
   text-decoration: underline;
 }
 
-.footer,
-.nav {
+footer,
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.section__intro,.section__project__pictures,.section__contact {
+.section__ajust__padding {
   padding: 80px;
 }
 
 /* ----- HEADER ----- */
 
-.navbar__link, .nav__link__icon  {
+.link__ajust__margin {
   margin-left: 30px;
 }
-
 
 .nav__link__icon:hover {
   opacity: 0.5;
@@ -109,7 +113,6 @@ footer {
 
 .section__project__pictures {
   background-color: white;
-  padding: 80px;
 }
 
 .container__project {
@@ -120,14 +123,8 @@ footer {
   margin-bottom: 15px;
 }
 
-.section__project__subtitle {
-  color: #242424;
-  text-align: center;
-  margin-bottom: 80px;
-}
-
 /* ----- CONTACT ----- */
- 
+
 .section__contact__form {
   display: flex;
   flex-direction: column;
@@ -142,22 +139,22 @@ footer {
   gap: 20px;
 }
 
-.container__form__name,.container__form__email {
+.container__form__name_email {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.form__name__input,.form__email__input,.section__contact__form__input,
-.section__contact__form__textarea {
+.form__name__email__input {
   padding: 15px;
-  border-radius: 3px;
+  border-radius: 30px;
   border: none;
 }
 
-.form__name__label,.form__email__label,.section__contact__form__label {
+.form__name__email__label {
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .section__contact__form__input {
@@ -165,8 +162,6 @@ footer {
   margin: auto;
   margin-top: 30px;
 }
-
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 996px) {
@@ -198,7 +193,6 @@ footer {
     margin-right: 10px;
   }
 }
-
 
 @media screen and (max-width: 996px) {
   .accueil-introduction {
@@ -236,4 +230,3 @@ footer {
     gap: 0;
   }
 }
-
