@@ -1,0 +1,31 @@
+@mixin style_effect{
+  body {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    background-color: $light_black;
+  }
+
+  .link {
+    color: $black;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  em {
+    color: $light_blue;
+    font-style: normal;
+  }
+  
+  #section__h2 {
+    color: $black;
+    text-align: $center;
+    margin-bottom: 30px;
+  }
+
+  .nav__link__icon:hover {
+    opacity: 0.5;
+  }
+}

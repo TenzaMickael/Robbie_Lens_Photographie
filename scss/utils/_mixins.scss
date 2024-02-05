@@ -1,0 +1,106 @@
+@mixin accueil_intro_page_index{
+  .section__intro {
+    display: $flex;
+    flex-direction: $row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: $auto;
+  }
+
+  @media screen and (max-width: 996px) {
+    .section__intro {
+      flex-direction: $column;
+      align-items: $center;
+      justify-content: $center;
+    }
+  }
+
+  .container__intro {
+    padding-right: 80px;
+  }
+
+  @media screen and (max-width: 996px) {
+    .container__intro {
+      padding-right: 0;
+      text-align: $center;
+      order: 2;
+    }
+  }
+  
+  .container__intro__title {
+    font-size: 3.5em;
+    color: $light_blue;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 996px) {
+    .container__intro__title{
+      font-size: 2em;
+    }
+  }
+
+  .container__intro__content {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: $grey;
+  }
+
+  .section__container__intro__link {
+    display: inline-block;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: $white;
+    border-radius: 50px;
+    padding: 20px 30px;
+  }
+
+  .section__container__intro__link:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  } 
+
+  @media screen and (max-width: 996px) {
+    .section__intro__img {
+      order: 1;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+  
+  .section__ajust__padding {
+    padding: 80px;
+  }
+  @media screen and (max-width: 996px) {
+    .section__ajust__padding {
+      padding: 50px 20px 50px 20px;
+    }
+  }
+}
+
+@mixin accueil_photos_page_index{
+
+  .section__project__pictures {
+    background-color: $white;
+  }
+  
+  .container__project {
+    display: $flex;
+    flex-direction: $row;
+    gap: 15px;
+    justify-content: $center;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 996px) {
+    .container__project {
+      flex-direction: $column;
+    }
+  }
+
+  @media screen and (max-width: 996px) {
+    .section__project__pictures {
+      padding: 20px;
+    }
+  }
+}
+

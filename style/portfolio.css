@@ -1,44 +1,54 @@
-.portfolio-section-photos {
+.section__photos {
   background-color: white;
+  padding: 80px;
 }
 
-.portfolio-section-photos h2 {
+.container__intro__title--portfolio{
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+  padding: 80px;
+}
+
+.section__h2 {
   color: #242424;
-  margin-bottom: 50px;
-  text-align: center;
+  margin-bottom: 40px;
+   text-decoration: underline;
+  
+}
+
+.section__h2--portraits{
+  margin:40px 0px 40px 0px;
   text-decoration: underline;
 }
 
-.portfolio-section-photos .port_h2_portrait{
-  margin-top: 70px;
-}
-
-.grid-paysages {
+.container__grid__paysage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 300px 300px 300px;
   gap: 15px;
 }
 
-.grid-portraits {
+.container__grid__portraits {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 300px 300px;
   gap: 15px;
 }
 
-.grid-paysages img,
-.grid-portraits img {
+.container__grid__paysage img,
+.container__grid__portraits img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.lien-conteneur-photo {
+.lien__conteneur__photo {
   position: relative;
 }
 
-.photo-hover {
+#photo__hover {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,17 +63,17 @@
   display: none;
 }
 
-.lien-conteneur-photo:hover .photo-hover {
+.lien__conteneur__photo:hover #photo__hover {
   display: flex;
 }
 
 @media screen and (max-width: 996px) {
-  .grid-paysages {
+  .container__grid__paysage {
     grid-template-columns: 1fr;
     gap: 15px;
   }
 
-  .grid-portraits {
+  .container__grid__portraits {
     grid-template-columns: 1fr;
     gap: 15px;
   }

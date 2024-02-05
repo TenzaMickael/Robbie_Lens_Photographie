@@ -1,0 +1,37 @@
+@mixin header_footer{
+  .header__footer__color__padding__ajust {
+    background-color: $white;
+    padding: 20px 50px;
+  }
+  .nav__header__ajust__flex {
+    display: $flex;
+    flex-direction: $row;
+    align-items: $center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 996px) {
+      .nav__header__ajust__flex {
+        flex-direction: $column;
+        justify-content: $center;
+      }
+
+      .nav__header__ajust__flex img {
+        margin-bottom: 20px;
+      }
+    } 
+  }  
+
+  .link__ajust__margin {
+    margin-left: 30px;
+
+    @media screen and (max-width: 996px) {
+      .link__ajust__margin {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+    
+
+

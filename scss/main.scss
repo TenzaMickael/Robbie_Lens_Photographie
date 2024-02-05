@@ -1,0 +1,16 @@
+@import "utils/variables";
+@import "utils/mixins";
+
+@import "base/reset";
+@import "base/style_effect";
+
+@import "layouts/header_footer";
+@import "layouts/form";
+
+@import "pages/index";
+@import "pages/portfolio";
+@import "pages/a_propos.scss";
+
+/* Lancer :  sass --watch main.scss ../main.css */
+
+
