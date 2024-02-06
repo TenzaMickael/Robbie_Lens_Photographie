@@ -178,3 +178,38 @@
   
 }
 
+@mixin main__a__propos{
+  .a__propos__main {
+    margin: auto;
+    padding: $padding;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17.6px;
+  }
+  
+  .container__intro {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  
+  .container__intro__title--a__propos{
+    text-align: center;
+  }
+  
+  .section__h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .container__intro__list {
+    margin-top: 30px;
+  }
+  
+  .container__intro + div {
+    text-align: $center;
+  }  
+}

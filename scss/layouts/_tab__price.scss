@@ -1,0 +1,27 @@
+@mixin tabprice{
+  table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #a5b4fc;
+  }
+  
+  td {
+    padding: 80px;
+  }
+  
+  
+  
+  @media screen and (max-width: 996px) {
+    .tableau__tarifs {
+      display: none;
+     
+    }
+  }
+}

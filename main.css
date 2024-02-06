@@ -352,6 +352,128 @@ em {
     gap: 15px;
   }
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+.link {
+  color: #242424;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+#section__h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav__link__icon:hover {
+  opacity: 0.5;
+}
+
+.header__footer__color__padding__ajust {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.nav__header__ajust__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 996px) {
+  .nav__header__ajust__flex .nav__header__ajust__flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav__header__ajust__flex .nav__header__ajust__flex img {
+    margin-bottom: 20px;
+  }
+}
+
+.link__ajust__margin {
+  margin-left: 30px;
+}
+@media screen and (max-width: 996px) {
+  .link__ajust__margin .link__ajust__margin {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.a__propos__main {
+  margin: auto;
+  padding: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17.6px;
+}
+
+.container__intro {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.container__intro__title--a__propos {
+  text-align: center;
+}
+
+.section__h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container__intro__list {
+  margin-top: 30px;
+}
+
+.container__intro + div {
+  text-align: center;
+}
+
+table {
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
+
+td {
+  padding: 80px;
+}
+
+@media screen and (max-width: 996px) {
+  .tableau__tarifs {
+    display: none;
+  }
+}
 /* Lancer :  sass --watch main.scss ../main.css */
 
 /*# sourceMappingURL=main.css.map */
